@@ -358,6 +358,8 @@ local_dev/
 .config/session/
 .config/Code/Cached*
 memory_forensics_lime
+Documents/memory_forensics_lime
+
 .config/Code/Cookies
 .config/Code/Cookies-journal
 .config/Code/Network Persistent State
@@ -374,20 +376,27 @@ rsync-homedir-excludes.txt
 
 # python stuff, that is easily reinstalled with pip etc..
 virtualenvs
-*venv/
+venv/
 env/
 
 # may not want to copy snap folders
 snap
 
 # big files
-*.img
-*.iso
+.img.xz
+.img
+.iso
 .vhd
 .vdi
 
-# maybe you don't want to copy the Desktop
-Desktop/
+Dropbox/
+.dropbox/
+Dropbox.bak/
+.cache/
+iso/
+.phoronix-test-suite/
+Downloads/
+
 
 # This could be big, if you have an apps folder in your home 
 apps/
