@@ -7,7 +7,7 @@
 #
 # #Usage:
 #    USER=<homedir username here>
-#    rsync -aP --exclude-from=rsync-homedir-excludes.txt /home/$USER/ /media/$USER/linuxbackup/home/$USER/
+#    rsync -aP --exclude-from=newxld.txt /home/$USER/ /media/$USER/linuxbackup/home/$USER/
 
 
 ###############################################
