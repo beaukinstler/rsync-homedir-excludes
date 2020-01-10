@@ -448,3 +448,4 @@ _build
 Desktop/
 'Old Firefox Data'
 newxld.txt
+RDP_SHARE/
