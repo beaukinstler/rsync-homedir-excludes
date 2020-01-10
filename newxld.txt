@@ -447,3 +447,4 @@ _build
 # maybe you don't want to copy the Desktop
 Desktop/
 'Old Firefox Data'
+newxld.txt
