@@ -15,16 +15,16 @@
 # (uncomment the files you don't need)        #
 ###############################################
 
-#.android
-#.AndroidStudio*/
-#Android/Sdk
-#.gradle
-#.gvm
-#.grails/
-#.grails_history
-#.kde/share/apps/nepomuk
-#.local/share/notbit
-#.local/libvirt
+.android
+.AndroidStudio*/
+Android/Sdk
+.gradle
+.gvm
+.grails/
+.grails_history
+.kde/share/apps/nepomuk
+.local/share/notbit
+.local/libvirt
 .vagrant
 .vagrant.d
 .wine
@@ -36,7 +36,7 @@ Downloads/
 #/.aMule
 #/Scribus
 /VirtualBox*
-#/Nextcloud
+/Nextcloud
 #_build
 ## Ruby gems
 .rvm
@@ -350,6 +350,21 @@ examples.desktop
 iso/
 dotfiles/
 .config/google*
+.azuredatastudio
+.gem
+.backup
+.ipython
+.dotnet
+py2.7
+local_development
+localdev
+screenshots
+.themes
+.openarena
+.node-gyp
+.sqlsecrets
+
+
 
 # my custom stuff
 local_dev/
@@ -370,6 +385,7 @@ Documents/memory_forensics_lime
 .config/Code/Local Storage/
 .config/Code/blob_storage/
 .config/Code/webrtc_event_logs/
+.config/azure*
 
 # mak sure not to replace this file
 rsync-homedir-excludes.txt
@@ -383,11 +399,12 @@ env/
 snap
 
 # big files
-.img.xz
-.img
-.iso
-.vhd
-.vdi
+*.img.xz
+*.img
+*.iso
+*.vhd
+*.vdi
+
 
 Dropbox/
 .dropbox/
@@ -403,9 +420,15 @@ apps/
 temp/
 
 # This can be very big
-'Old Firefox Data'
+Desktop/Old\ Firefox\ Data
 
 
 
 __pycache__
+
+go/
+
+.cache/mozilla
+.cache/google*
+.config/joplin-desktop
 
